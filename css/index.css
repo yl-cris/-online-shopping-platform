@@ -1,0 +1,124 @@
+.first_menu{
+    position: relative;
+    width: 200px;
+    left:50px;
+    top:50px;
+}
+ul{
+    width: 100px;
+    padding: 15px;
+    margin: 9;
+    list-style: none;
+    background-color: #6c6669;
+    color: cornsilk;
+    border-right-width: 0;
+}
+li{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+}
+/*
+.hide{
+    width: 600px;
+    position: absolute;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+    left: 200px;
+    top:50px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}*/
+.hide{
+    display: none;
+}
+.hh{
+    width: 600px;
+    position: absolute;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+    left: 150px;
+    top:0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+#container{
+    top:80px;
+    left: 50px;
+    width: 600px;
+    height: 400px;
+    border: 3px solid;
+    overflow: hidden;
+    position: relative;
+
+}
+#list{
+    left: 50px;
+    width:3600px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+}
+#list img{
+    float: left;
+}
+#buttons{
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    z-index: 2;
+    bottom: 20px;
+    left: 250px;
+}
+#buttons span{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+    margin-right: 5px;
+}
+#buttons .onn{
+    background: orangered;
+}
+.arrow{
+    cursor: pointer;
+    display: none;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+
+}
+.arrow:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+#container:hover .arrow{
+    display: block;
+
+}
+#previous{
+    left:20px;
+
+}
+#next{
+    right: 20px;
+
+}
